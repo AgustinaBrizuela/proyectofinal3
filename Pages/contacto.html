@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto - Bodegas Flores</title>
+    <link rel="icon" href="..//Imágenes/favicon/Favicon Grape.png" type="image/png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="..//CSS/style.css">
+    <!-- Animate css -->
+    <linkrel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    
+</head>
+<body>
+    <header>
+        <img class="fotohome" src="..//Imágenes/Fotos/Viñedo Home.jpg" alt="viñedo.jpg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+               <a class="navbar-brand" href="BodegaFloreslogo"></a>
+               <a href="../index.html"><img id="logobodega" src="..//Imágenes/Fotos/Bodega flores Logo.png" alt="logobodega"></a>
+            <button class="navbar-toggler navbar-dark" id="botonenviar" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar-dark"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="..//index.html">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="..//Pages/historia.html">Historia</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nuestros Vinos </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../Pages/nuestros vinos.html">Vinos</a>
+                    <a class="dropdown-item" href="../Pages/premios.html">Premios</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="..//Pages/compras.html">Comprar</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="..//Pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+              
+            </div>
+            </div>
+          </nav>
+        </header>
+    
+    
+<section class="mb-4">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h2>
+    <p id="pcontacto" class="text-center w-responsive mx-auto mb-5">Deje su mensaje nos contactaremos a la brevedad</p>
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" placeholder="Nombre y Apellido" class="form-control" required>
+                            <label for="name" class="eti"></label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" placeholder="Email" class="form-control" required>
+                            <label for="email" class="eti"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" placeholder="Asunto" name="subject" class="form-control">
+                            <label for="subject" class="eti"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" placeholder="Mensaje" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="Mensaje"></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="text-center text-md-left">
+                <button type="submit" class="btn btn-success"> <a onclick="document.getElementById('contact-form').submit();">Enviar</a></button>
+            </div>
+            <div class="status"></div>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="updates" id="updates" value="1">
+            <label for="updates" class="form-check-label">Estoy de acuerdo a recibir novedades y ofertas a mi email</label>
+          </div>
+</section>
+<section>
+                <ul class="sobrenosotros">
+                    <h3 class="h3sobrenosotros" >Sobre Nosotros</h3>
+                    <li class="list-unstyled" id="lisobrenosotros">Estamos abiertos 365 días del año</li>
+                    <li class="list-unstyled"><i class="sobrenosotrostel"></i> Teléfono: +54 261 5 55555</li>
+                    <li class="list-unstyled"><i class="sobrenosotrosemail"></i>Email:<span> <a class="emailcontacto" href="flores@bodega.com.ar">flores@bodega.com.ar</a></li>
+                    <li class="list-unstyled"><i class="sobrenosotrosdire"></i> Dirección: Rodriguez Peña 500 Maipú Mendoza</li>
+                    <li class="list-unstyled"><a class="sobrenosotrosmapa" href="https://goo.gl/maps/jUQ7rUrk8BVTybVS6"target:_blank>Mostrar dirección en GoogleMaps</a></li>
+                </ul>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+    <footer class="homefooter"> 
+        <a class="linkhome" href="../index.html">Link Home</a>
+        <h3 id="h3home" class="blockquote text-center">Bodega Flores S.A. - Lujan de Cuyo - Mendoza - Argentina</h3>
+        <p class="text-light">2022 - TODOS LOS DERECHOS RESERVADOS </p>
+    <footer>
+ <!-- bootstrap  script-->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

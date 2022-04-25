@@ -1,0 +1,28 @@
+//*Variables*//
+$colorfont: rgb(70, 17, 57);
+$italic:italic;
+$bold: bold;
+
+//*tipografía para todo el documento*//
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*Eliminamos los márgenes y paddings del navegador por defecto*/
+
+html{
+    box-sizing: border-box;
+    padding: 0%;
+    box-sizing: inherit;
+    }
+
+  /*Color del cuerpo de la página*/
+
+body 
+{
+   background-image: linear-gradient(to right, rgb(116, 102, 102),rgb(155, 97, 133));
+
+}
+//*estilo header*//
+@import "header.scss";
+@import "index.scss";
+@import "footer.scss";

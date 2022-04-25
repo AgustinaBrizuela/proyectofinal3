@@ -1,0 +1,24 @@
+/* estilo footer*/
+
+.homefooter
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 0.6rem;
+   
+    .linkhome
+    {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    }
+#h3home
+    {
+    padding-top: 0.3rem;
+    font-size: 1rem;
+    }
+}
+   
