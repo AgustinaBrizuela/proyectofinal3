@@ -3,6 +3,7 @@ $colorfont: rgb(70, 17, 57);
 $italic:italic;
 $bold: bold;
 
+
 //*tipografía para todo el documento*//
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -26,3 +27,26 @@ body
 @import "header.scss";
 @import "index.scss";
 @import "footer.scss";
+
+
+ /*Estilo de page Historia.html*/
+
+ .h1historia
+ {
+ margin: 20px;
+ text-align: center;
+ text-decoration: underline;
+ }
+.columnahistoria
+ {
+  
+  border: 1px $Borderstyle;
+  background-color:#DED9E9;
+  margin: 10px 40px;
+  columns: 1px 2;
+  column-gap: 3em;
+  column-rule: 1.5px $Borderstyle;
+  column-width: 1px;
+  font-size: 20px;
+  padding: 10px;
+  }

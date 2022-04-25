@@ -53,8 +53,8 @@ header .dropdown-menu {
   color: #080308;
   font-size: 1rem;
   padding: 2rem;
-  border-top: solid 0.1rem #49155e;
-  border-bottom: solid 0.1rem #49155e;
+  border-top: 0.1rem solid #49155e;
+  border-bottom: 0.1rem solid #49155e;
   padding: 0.5rem; }
 
 #imagenhome {
@@ -116,3 +116,20 @@ header .dropdown-menu {
   .homefooter #h3home {
     padding-top: 0.3rem;
     font-size: 1rem; }
+
+/*Estilo de page Historia.html*/
+.h1historia {
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline; }
+
+.columnahistoria {
+  border: 1px solid #49155e;
+  background-color: #DED9E9;
+  margin: 10px 40px;
+  columns: 1px 2;
+  column-gap: 3em;
+  column-rule: 1.5px solid #49155e;
+  column-width: 1px;
+  font-size: 20px;
+  padding: 10px; }

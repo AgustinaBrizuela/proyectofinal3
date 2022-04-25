@@ -1,6 +1,6 @@
 //*Estilo de header*//
 //*Variables*//
-$Borderstyle: solid 0.1rem rgb(73, 21, 94);
+$Borderstyle: solid rgb(73, 21, 94);
 
 //*estilo información e imágenes de la bodega*//
 /*estilo información e imágenes de la bodega*/
@@ -17,11 +17,11 @@ $Borderstyle: solid 0.1rem rgb(73, 21, 94);
     color: rgb(8, 3, 8);
     font-size: 1rem;
     padding: 2rem; 
-    border-top:$Borderstyle;
-    border-bottom: $Borderstyle;
+    border-top:0.1rem $Borderstyle;
+    border-bottom: 0.1rem $Borderstyle;
     padding: 0.5rem;
     }
-    
+
 #imagenhome
  {
          height: 29rem;
