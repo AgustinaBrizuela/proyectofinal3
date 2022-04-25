@@ -2,6 +2,7 @@
 $colorfont: rgb(70, 17, 57);
 $italic:italic;
 $bold: bold;
+$especificbgcolor: rgb(248, 241, 241);
 
 
 //*tipografía para todo el documento*//
@@ -41,7 +42,7 @@ body
  {
   
   border: 1px $Borderstyle;
-  background-color:#DED9E9;
+  background-color:$especificbgcolor;
   margin: 10px 40px;
   columns: 1px 2;
   column-gap: 3em;
@@ -50,3 +51,106 @@ body
   font-size: 20px;
   padding: 10px;
   }
+
+  /*estilo de página Nuestrosvinos.html*/
+
+
+.h2nuestrosvinos
+{
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.color
+{
+background-color: $especificbgcolor;
+}
+
+.botellanuestrosvinos
+{
+width: 10rem;
+}
+
+
+/* Estilo página Premios.html*/
+.h2premios
+
+{
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}   
+
+.tablapremios
+{
+ width: 50%;
+ border: 10px $Borderstyle;
+ border-spacing: 5px;
+ text-align: center;
+ padding: 15px;
+ border-collapse: collapse;
+ line-height: 25px;
+ margin-top: 10px;
+ margin-left: 25%;
+}
+
+.color2
+{
+background-color:$especificbgcolor;
+}
+.h3video
+{
+    text-align: center;
+    text-decoration: underline;
+}   
+.videopremios
+{
+text-align: center;
+margin:  1.5rem;
+
+}
+/*Estilo página Contact.html*/
+
+.mb-4
+{
+padding: 1rem;
+}
+.h2contacto
+{
+        margin: 20px;
+        text-align: center;
+        text-decoration: underline;
+}
+#pcontacto
+{
+ font-weight: bold;
+}
+
+.form-check
+{
+margin-left: 2rem;
+margin-top: 0.5rem;
+font-weight: bold;
+}
+
+.sobrenosotros
+{
+color: rgb(7, 5, 7);
+font-size: 0.9rem;
+padding-left: 30px;
+text-decoration: none;
+}
+#lisobrenosotros
+{
+font-style: italic;
+font-size: 1rem;
+
+}
+.sobrenosotrosmapa
+{
+color: rgb(7, 5, 7);
+font-weight: bold;
+font-style: italic;
+}
