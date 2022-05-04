@@ -1,0 +1,13 @@
+/*Se crea un maps*/
+
+$fonts: (
+    Color1:purple
+    Color2:Blue
+    
+);
+
+#mapa
+{
+    background-color: map-get($fonts, Color1);
+}
+
