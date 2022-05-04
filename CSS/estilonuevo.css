@@ -43,7 +43,7 @@ header .dropdown-menu {
   font-style: none; }
 
 /*estilo información e imágenes de la bodega*/
-h1 {
+h1, .h1historia, .h1premios, .h1nuestrosvinos {
   margin: 20px;
   text-align: center;
   text-decoration: underline;
@@ -138,6 +138,25 @@ h1 {
   background-color: #fcf0fc;
   font-size: 1rem;
   border: #420c39 solid; }
+
+h1, .h1historia, .h1premios, .h1nuestrosvinos {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Georgia;
+  color: #6b1767;
+  text-decoration: none; }
+
+.h1historia {
+  background-color: #f0e7e7;
+  color: #990fb4; }
+
+.h1premios {
+  text-decoration: none;
+  background-color: #ae30c7; }
+
+.h1nuestrosvinos {
+  text-decoration: dotted;
+  background-color: gold; }
 
 /*Estilo de page Historia.html*/
 .columnahistoria {
