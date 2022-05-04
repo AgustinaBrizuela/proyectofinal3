@@ -126,13 +126,18 @@ h1 {
 /*Se crea un maps*/
 #mapa1 {
   background-color: #fcf0fc;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   border: #420c39 solid; }
 
 #mapa2 {
   background-color: #c2a4c2;
   font-size: 1rem;
   border: rgba(153, 4, 141, 0.788) solid; }
+
+#mapa3 {
+  background-color: #fcf0fc;
+  font-size: 1rem;
+  border: #420c39 solid; }
 
 /*Estilo de page Historia.html*/
 .columnahistoria {
