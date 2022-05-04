@@ -171,6 +171,23 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   font-weight: bold;
   font-style: italic; }
 
+.botellanuestrosvinos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.h3video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline; }
+
+.videopremios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem; }
+
 /*Estilo de page Historia.html*/
 .columnahistoria {
   border: 1px solid #1b0e20;
@@ -204,14 +221,6 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
 
 .color2 {
   background-color: #f8f1f1; }
-
-.h3video {
-  text-align: center;
-  text-decoration: underline; }
-
-.videopremios {
-  text-align: center;
-  margin: 1.5rem; }
 
 /*Estilo página Contact.html*/
 .mb-4 {
