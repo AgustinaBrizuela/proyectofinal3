@@ -1,13 +1,26 @@
 /*Se crea un maps*/
 
-$fonts: (
-    Color1:purple
-    Color2:Blue
+$Coloresmapa: (
+    Color1:rgb(252, 240, 252),
+    Color2: rgb(194, 164, 194),
+    fontsize1: 1.1rem,
+    fontsize2: 1rem,
+    bordercolor1: rgb(66, 12, 57),
+    bordercolor2: rgba(153, 4, 141, 0.788),
+
     
 );
 
-#mapa
+#mapa1
 {
-    background-color: map-get($fonts, Color1);
+    background-color: map-get($Coloresmapa, Color1);
+    font-size:map-get($Coloresmapa, fontsize1); 
+    border:map-get($Coloresmapa, bordercolor1) solid; 
 }
 
+#mapa2
+{
+    background-color: map-get($Coloresmapa, Color2);
+    font-size:map-get($Coloresmapa, fontsize2);
+    border:map-get($Coloresmapa, bordercolor2) solid; 
+}
