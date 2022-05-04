@@ -29,15 +29,13 @@ body
 @import "index.scss";
 @import "footer.scss";
 
+//*Estilo mixing*//
+@import "mixing.scss";
+
 
  /*Estilo de page Historia.html*/
 
- .h1historia
- {
- margin: 20px;
- text-align: center;
- text-decoration: underline;
- }
+ 
 .columnahistoria
  {
   
@@ -55,14 +53,6 @@ body
   /*estilo de página Nuestrosvinos.html*/
 
 
-.h2nuestrosvinos
-{
-    margin: 20px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-
 .color
 {
 background-color: $especificbgcolor;
@@ -75,13 +65,7 @@ width: 10rem;
 
 
 /* Estilo página Premios.html*/
-.h2premios
-
-{
-    margin: 20px;
-    text-align: center;
-    text-decoration: underline;
-}   
+  
 
 .tablapremios
 {
@@ -117,12 +101,7 @@ margin:  1.5rem;
 {
 padding: 1rem;
 }
-.h2contacto
-{
-        margin: 20px;
-        text-align: center;
-        text-decoration: underline;
-}
+
 #pcontacto
 {
  font-weight: bold;

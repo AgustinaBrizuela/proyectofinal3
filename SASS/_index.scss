@@ -4,7 +4,11 @@ $Borderstyle: solid rgb(27, 14, 32);
 
 //*estilo información e imágenes de la bodega*//
 /*estilo información e imágenes de la bodega*/
-
+h1 {
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: red; }
 #h1index
 {
     font-size: 1.7rem;
