@@ -43,6 +43,12 @@ header .dropdown-menu {
   font-style: none; }
 
 /*estilo información e imágenes de la bodega*/
+h1 {
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: red; }
+
 #h1index {
   font-size: 1.7rem;
   font-weight: bold;
@@ -116,8 +122,6 @@ header .dropdown-menu {
   .homefooter #h3home {
     padding-top: 0.3rem;
     font-size: 1rem; }
-
-
 
 /*Estilo de page Historia.html*/
 .columnahistoria {
