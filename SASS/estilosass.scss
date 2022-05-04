@@ -30,7 +30,7 @@ body
 @import "footer.scss";
 @import "maps.scss";
 @import "extend.scss";
-
+@import "mixin.scss";
 
  /*Estilo de page Historia.html*/
 
@@ -120,12 +120,7 @@ font-size: 0.9rem;
 padding-left: 30px;
 text-decoration: none;
 }
-#lisobrenosotros
-{
-font-style: italic;
-font-size: 1rem;
 
-}
 .sobrenosotrosmapa
 {
 color: rgb(7, 5, 7);

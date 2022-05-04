@@ -158,6 +158,19 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   text-decoration: dotted;
   background-color: gold; }
 
+.sobrenosotros, #h2contacto, .sobrenosotrosmapa {
+  color: #070507;
+  font-size: 0.9rem;
+  padding-left: 30px;
+  text-decoration: none; }
+
+#h2contacto {
+  font-size: 5rem; }
+
+.sobrenosotrosmapa {
+  font-weight: bold;
+  font-style: italic; }
+
 /*Estilo de page Historia.html*/
 .columnahistoria {
   border: 1px solid #1b0e20;
@@ -212,15 +225,11 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   margin-top: 0.5rem;
   font-weight: bold; }
 
-.sobrenosotros {
+.sobrenosotros, #h2contacto, .sobrenosotrosmapa {
   color: #070507;
   font-size: 0.9rem;
   padding-left: 30px;
   text-decoration: none; }
-
-#lisobrenosotros {
-  font-style: italic;
-  font-size: 1rem; }
 
 .sobrenosotrosmapa {
   color: #070507;
