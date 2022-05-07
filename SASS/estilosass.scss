@@ -30,7 +30,7 @@ body
 @import "extend.scss";
 @import "mixin.scss";
 
- /*Estilo de pageH home.html*/
+ /*Estilo de page home.html*/
 
  $Coloresmapa: (
   Color1:rgb(252, 240, 252),
@@ -60,7 +60,7 @@ body
   font-size:map-get($Coloresmapa, fontsize2); 
   border:map-get($Coloresmapa, bordercolor1) solid; 
 }
- 
+  /*Estilo de page historia.html*/
 .columnahistoria
  {
   
@@ -81,11 +81,6 @@ body
 .color
 {
 background-color: $especificbgcolor;
-}
-
-.botellanuestrosvinos
-{
-width: 10rem;
 }
 
 

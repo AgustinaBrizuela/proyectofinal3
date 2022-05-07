@@ -1,5 +1,4 @@
 /*tipografía para todo el documento*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /*Eliminamos los márgenes y paddings del navegador por defecto*/
 html{
@@ -35,7 +34,7 @@ body
     height: 3.2rem;
     width: 100%;
     text-align: right;
-    border-radius: 8rem;
+    border-radius: 7.6rem;
 }
 
 nav
@@ -43,12 +42,12 @@ nav
     font-weight: bold;
     font-style: normal;
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     }
 
     nav li :hover
     {
-        transform: scale(1.09);
+        transform: scale(1.02);
         transition: color, background-color, transform 0.3s ease-in;
     }
     nav li a:hover
@@ -60,31 +59,9 @@ nav
     {
     text-decoration: none;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 23px;
     }
-.dropdown-menu
-{
-    background-image: linear-gradient(to right, rgb(56, 42, 54),rgb(216, 174, 216));
-    font-weight: bold;
-    font-style: none;
-}
-/*estilo información e imágenes de la bodega*/
 
-#h1index
-{
-    font-size: 1.7rem;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(15, 4, 15, 0.644);
-}
-#infobodega
-    {
-    color: rgb(8, 3, 8);
-    font-size: 1rem;
-    padding: 0.2rem; 
-        border-bottom: solid 0.1rem rgb(73, 21, 94);
-    padding: 0.5rem;
-    }
 
 
 /* estilo redes sociales*/ 
@@ -93,9 +70,6 @@ nav
     {
     text-align: center;
     justify-content: center;
-    background-image: url(..//Imágenes/Fotos/uvasredes.png);
-    background-repeat: repeat;
-    background-size: 410px;
     }
 .redessociales h2
     {
@@ -123,7 +97,7 @@ nav
     {
         background-color: rgb(216, 210, 215);
         transform: scale(1.2);
-        transition: color, background-color, transform 0.4s ease-in;
+        transition: color, transform 0.4s ease-in;
     }
 
 /*Animación del redes*/
@@ -169,14 +143,9 @@ animation-duration: 5s;
     font-size: 1rem;
 }
 
-    /*Estilo de page Historia.html*/
+/*Estilo de page Historia.html*/
 
-.h1historia
-    {
-    margin: 20px;
-    text-align: center;
-    text-decoration: underline;
-    }
+
 .columnahistoria
     {
      
@@ -202,8 +171,7 @@ animation-duration: 5s;
         text-decoration: underline;
     }
     
-   
-.color
+ .color
     {
     background-color:rgb(248, 241, 241);
     }

@@ -27,7 +27,7 @@ header nav {
   width: 100%;
   font-size: 1.3rem; }
   header nav nav li :hover {
-    transform: scale(1.09);
+    transform: scale(1.03);
     transition: color, background-color, transform 0.3s ease-in; }
     header nav nav li :hover nav li a:hover {
       background-color: #190227; }
@@ -42,7 +42,7 @@ header .dropdown-menu {
   font-style: none; }
 
 /*estilo información e imágenes de la bodega*/
-h1, .h1historia, .h1premios, .h1nuestrosvinos {
+h1, .h1nuestrosvinos {
   margin: 20px;
   text-align: center;
   text-decoration: underline;
@@ -101,6 +101,34 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   100% {
     left: 0;
     color: #461139; } }
+    .redessociales {
+      text-align: center;
+      justify-content: center;
+      background-image: url(..//Imágenes/Fotos/uvasredes.png);
+      background-repeat: repeat;
+      background-size: 410px; }
+      .redessociales .redessociales h2 {
+        color: #461139;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 0.1rem;
+        position: relative; }
+      .redessociales .iconosredes {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        list-style: none;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto; }
+        .redessociales .iconosredes:hover {
+          background-color: #d8d2d7;
+          transform: scale(1.2);
+          transition: color, background-color, transform 0.4s ease-in; }
+    
 
 .redessociales h2 {
   animation-name: left-in;
@@ -113,33 +141,28 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   justify-content: center;
   align-items: center;
   font-style: italic;
-  font-size: 0.6rem; }
+  font-size: 0.9rem;
+  background-image: url(..//assets/uvasredes.png);
+  background-repeat: repeat;
+  background-size: 410px; }
   .homefooter .linkhome {
     text-decoration: none;
-    color: purple;
-    font-weight: bold; }
+    color: #0e060e;
+    font-weight: bold;
+    font-size: 1rem; }
   .homefooter #h3home {
     padding-top: 0.3rem;
     font-size: 1rem; }
 
-h1, .h1historia, .h1premios, .h1nuestrosvinos {
+h1, .h1nuestrosvinos {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Georgia;
-  color: #6b1767;
+  color: #421240;
   text-decoration: none; }
 
-.h1historia {
-  background-color: #f0e7e7;
-  color: #990fb4; }
-
-.h1premios {
-  text-decoration: none;
-  background-color: #ae30c7; }
-
 .h1nuestrosvinos {
-  text-decoration: dotted;
-  background-color: gold; }
+  text-decoration: dotted; }
 
 .sobrenosotros, #h2contacto, .sobrenosotrosmapa {
   color: #070507;
@@ -171,7 +194,7 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   align-items: center;
   margin: 1.5rem; }
 
-/*Estilo de pageH home.html*/
+/*Estilo de page home.html*/
 #mapa1 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
@@ -187,6 +210,7 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   font-size: 1rem;
   border: #663f5f solid; }
 
+/*Estilo de page historia.html*/
 .columnahistoria {
   border: 1px solid #1b0e20;
   background-color: #f8f1f1;
@@ -201,9 +225,6 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
 /*estilo de página Nuestrosvinos.html*/
 .color {
   background-color: #f8f1f1; }
-
-.botellanuestrosvinos {
-  width: 10rem; }
 
 /* Estilo página Premios.html*/
 .tablapremios {
