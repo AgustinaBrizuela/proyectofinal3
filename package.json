@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "Desafio SASS",
+  "description": "SASS Bodega Flores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

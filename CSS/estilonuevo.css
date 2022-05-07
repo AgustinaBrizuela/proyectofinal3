@@ -122,22 +122,6 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
     padding-top: 0.3rem;
     font-size: 1rem; }
 
-/*Se crea un maps*/
-#mapa1 {
-  background-color: #fcf0fc;
-  font-size: 0.9rem;
-  border: #420c39 solid; }
-
-#mapa2 {
-  background-color: #c2a4c2;
-  font-size: 1rem;
-  border: rgba(153, 4, 141, 0.788) solid; }
-
-#mapa3 {
-  background-color: #fcf0fc;
-  font-size: 1rem;
-  border: #420c39 solid; }
-
 h1, .h1historia, .h1premios, .h1nuestrosvinos {
   font-size: 1.5rem;
   font-weight: bold;
@@ -187,7 +171,22 @@ h1, .h1historia, .h1premios, .h1nuestrosvinos {
   align-items: center;
   margin: 1.5rem; }
 
-/*Estilo de page Historia.html*/
+/*Estilo de pageH home.html*/
+#mapa1 {
+  background-color: #fcf0fc;
+  font-size: 0.9rem;
+  border: #663f5f solid; }
+
+#mapa2 {
+  background-color: #c2a4c2;
+  font-size: 1rem;
+  font-weight: bold; }
+
+#mapa3 {
+  background-color: #fcf0fc;
+  font-size: 1rem;
+  border: #663f5f solid; }
+
 .columnahistoria {
   border: 1px solid #1b0e20;
   background-color: #f8f1f1;

@@ -27,12 +27,39 @@ body
 @import "header.scss";
 @import "index.scss";
 @import "footer.scss";
-@import "maps.scss";
 @import "extend.scss";
 @import "mixin.scss";
 
- /*Estilo de page Historia.html*/
+ /*Estilo de pageH home.html*/
 
+ $Coloresmapa: (
+  Color1:rgb(252, 240, 252),
+  Color2: rgb(194, 164, 194),
+  fontsize1: 0.9rem,
+  fontsize2: 1rem,
+  bordercolor1: rgb(102, 63, 95),
+ 
+ 
+);
+
+#mapa1
+{
+  background-color: map-get($Coloresmapa, Color1);
+  font-size:map-get($Coloresmapa, fontsize1); 
+  border:map-get($Coloresmapa, bordercolor1) solid; 
+}
+
+#mapa2
+{
+  background-color: map-get($Coloresmapa, Color2);
+  font-size:map-get($Coloresmapa, fontsize2);
+  font-weight: bold;
+}
+#mapa3{
+  background-color: map-get($Coloresmapa, Color1);
+  font-size:map-get($Coloresmapa, fontsize2); 
+  border:map-get($Coloresmapa, bordercolor1) solid; 
+}
  
 .columnahistoria
  {
