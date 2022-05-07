@@ -63,34 +63,13 @@ body
   border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
   padding: 3rem; 
 }
-  /*Estilo de page historia.html*/
-#historia1
-{
-  background-color: map-get($Coloresmapa, Color1);
-  font-size:map-get($Coloresmapa, fontsize1); 
-  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
-  padding: 3rem; 
-}
-
-#historia2
-{
-  background-color: map-get($Coloresmapa, Color1);
-  font-size:map-get($Coloresmapa, fontsize1); 
-  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
-  padding: 3rem; 
-}
   /*estilo de página Nuestrosvinos.html*/
-
-
 .color
 {
 background-color: $especificbgcolor;
 }
-
-
 /* Estilo página Premios.html*/
   
-
 .tablapremios
 {
  width: 50%;
