@@ -65,34 +65,7 @@ h1, .h1nuestrosvinos {
 #imagenhome {
   height: 29rem; }
 
-.redessociales {
-  text-align: center;
-  justify-content: center;
-  background-image: url(..//Imágenes/Fotos/uvasredes.png);
-  background-repeat: repeat;
-  background-size: 410px; }
-  .redessociales .redessociales h2 {
-    color: #461139;
-    font-size: 1.4rem;
-    font-weight: bold;
-    padding: 0.1rem;
-    position: relative; }
-  .redessociales .iconosredes {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    list-style: none;
-    width: 100%;
-    max-width: 200px;
-    margin: 0 auto; }
-    .redessociales .iconosredes:hover {
-      background-color: #d8d2d7;
-      transform: scale(1.2);
-      transition: color, background-color, transform 0.4s ease-in; }
-
+   
 /*Animación del redes*/
 @keyframes left-in {
   0% {
@@ -104,8 +77,6 @@ h1, .h1nuestrosvinos {
     .redessociales {
       text-align: center;
       justify-content: center;
-      background-image: url(..//Imágenes/Fotos/uvasredes.png);
-      background-repeat: repeat;
       background-size: 410px; }
       .redessociales .redessociales h2 {
         color: #461139;
@@ -124,15 +95,14 @@ h1, .h1nuestrosvinos {
         width: 100%;
         max-width: 200px;
         margin: 0 auto; }
-        .redessociales .iconosredes:hover {
-          background-color: #d8d2d7;
-          transform: scale(1.2);
-          transition: color, background-color, transform 0.4s ease-in; }
-    
 
-.redessociales h2 {
-  animation-name: left-in;
-  animation-duration: 5s; }
+
+  .insta:hover {
+    background-color: #d8d2d7;
+    transform: scale(1.6);
+    transition: color, background-color, transform 0.4s ease-in; 
+  }
+
 
 /* estilo footer*/
 .homefooter {

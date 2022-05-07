@@ -93,12 +93,7 @@ nav
     max-width: 200px;
     margin: 0 auto;
      }
-.iconosredes :hover
-    {
-        background-color: rgb(216, 210, 215);
-        transform: scale(1.2);
-        transition: color, transform 0.4s ease-in;
-    }
+
 
 /*Animación del redes*/
 
