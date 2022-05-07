@@ -64,20 +64,21 @@ body
   padding: 3rem; 
 }
   /*Estilo de page historia.html*/
-.columnahistoria
- {
-  
-  border: 1px $Borderstyle;
-  background-color:$especificbgcolor;
-  margin: 10px 40px;
-  columns: 1px 2;
-  column-gap: 3em;
-  column-rule: 1.5px $Borderstyle;
-  column-width: 1px;
-  font-size: 20px;
-  padding: 10px;
-  }
+#historia1
+{
+  background-color: map-get($Coloresmapa, Color1);
+  font-size:map-get($Coloresmapa, fontsize1); 
+  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
+  padding: 3rem; 
+}
 
+#historia2
+{
+  background-color: map-get($Coloresmapa, Color1);
+  font-size:map-get($Coloresmapa, fontsize1); 
+  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
+  padding: 3rem; 
+}
   /*estilo de página Nuestrosvinos.html*/
 
 
