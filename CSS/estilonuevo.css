@@ -25,16 +25,19 @@ header nav {
   font-weight: bold;
   font-style: normal;
   width: 100%;
-  font-size: 1.3rem; }
-  header nav nav li :hover {
-    transform: scale(1.03);
-    transition: color, background-color, transform 0.3s ease-in; }
-    header nav nav li :hover nav li a:hover {
-      background-color: #190227; }
-    header nav nav li :hover nav ul a {
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 25px; }
+  font-size: 1.25rem; }
+
+header nav li :hover {
+  transform: scale(1.02);
+  transition: color, background-color, transform 0.3s ease-in; }
+
+header nav li a:hover {
+  background-color: #190227; }
+
+header nav ul a {
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 23px; }
 
 header .dropdown-menu {
   background-image: linear-gradient(to right, #382a36, #d8aed8);
@@ -65,7 +68,34 @@ h1, .h1nuestrosvinos {
 #imagenhome {
   height: 29rem; }
 
-   
+.redessociales {
+  text-align: center;
+  justify-content: center;
+  background-image: url(..//Imágenes/Fotos/uvasredes.png);
+  background-repeat: repeat;
+  background-size: 410px; }
+  .redessociales h2 {
+    color: #461139;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.1rem;
+    position: relative; }
+  .iconosredes {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    list-style: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto; }
+    .redessociales .iconosredes:hover {
+      background-color: #d8d2d7;
+      transform: scale(1.2);
+      transition: color, background-color, transform 0.4s ease-in; }
+
 /*Animación del redes*/
 @keyframes left-in {
   0% {
@@ -74,35 +104,10 @@ h1, .h1nuestrosvinos {
   100% {
     left: 0;
     color: #461139; } }
-    .redessociales {
-      text-align: center;
-      justify-content: center;
-      background-size: 410px; }
-      .redessociales .redessociales h2 {
-        color: #461139;
-        font-size: 1.4rem;
-        font-weight: bold;
-        padding: 0.1rem;
-        position: relative; }
-      .redessociales .iconosredes {
-        display: inline-flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        padding-bottom: 1rem;
-        list-style: none;
-        width: 100%;
-        max-width: 200px;
-        margin: 0 auto; }
 
-
-  .insta:hover {
-    background-color: #d8d2d7;
-    transform: scale(1.6);
-    transition: color, background-color, transform 0.4s ease-in; 
-  }
-
+.redessociales h2 {
+  animation-name: left-in;
+  animation-duration: 5s; }
 
 /* estilo footer*/
 .homefooter {

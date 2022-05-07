@@ -15,26 +15,33 @@ header{
     text-align: right;
     border-radius: 8rem;
     }
+
     nav
     {
     font-weight: bold;
     font-style: normal;
     width: 100%;
-    font-size: 1.3rem;
-        nav li :hover
-        {
-        transform: scale(1.03);
-        transition: color, background-color, transform 0.3s ease-in;
-            nav li a:hover {
-            background-color: rgb(25, 2, 39);
-            }
-            nav ul a   
-            {text-decoration: none;
-            font-weight: bold;
-            border-radius: 25px;
-            }
-        }
+    font-size: 1.25rem;
     }
+
+    nav li :hover
+    {
+        transform: scale(1.02);
+        transition: color, background-color, transform 0.3s ease-in;
+    }
+    nav li a:hover
+    {
+    background-color: rgb(25, 2, 39);
+    }
+   
+    nav ul a   
+    {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 23px;
+    }
+
+
 .dropdown-menu
 {
     background-image: linear-gradient(to right, rgb(56, 42, 54),rgb(216, 174, 216));
