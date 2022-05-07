@@ -26,7 +26,7 @@ header{
 
     nav li :hover
     {
-        transform: scale(1.02);
+        transform: scale(1.019);
         transition: color, background-color, transform 0.3s ease-in;
     }
     nav li a:hover
@@ -40,11 +40,8 @@ header{
     font-weight: bold;
     border-radius: 23px;
     }
-
-
 .dropdown-menu
 {
-    background-image: linear-gradient(to right, rgb(56, 42, 54),rgb(216, 174, 216));
     font-weight: bold;
     font-style: none;
 }

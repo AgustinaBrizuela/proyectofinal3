@@ -2,35 +2,12 @@
 //*Variables*//
 $Borderstyle: solid rgb(27, 14, 32);
 
-//*estilo información e imágenes de la bodega*//
-/*estilo información e imágenes de la bodega*/
-h1 {
-    margin: 20px;
-    text-align: center;
-    text-decoration: underline;
-    color: red; }
-#h1index
-{
-    font-size: 1.7rem;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(15, 4, 15, 0.644);
-}
-#infobodega
-    {
-    color: rgb(8, 3, 8);
-    font-size: 1rem;
-    padding: 2rem; 
-    border-top:0.1rem $Borderstyle;
-    border-bottom: 0.1rem $Borderstyle;
-    padding: 0.5rem;
-    }
+//*estilo index*//
 
 #imagenhome
  {
-         height: 29rem;
+    height: 60vh;
  }
-
 
 //* estilo redes sociales*// 
 
@@ -38,16 +15,14 @@ h1 {
     {
     text-align: center;
     justify-content: center;
-    background-image: url(..//Imágenes/Fotos/uvasredes.png);
-    background-repeat: repeat;
-    background-size: 410px;
-    .redessociales h2 {
+
+    h2 {
     color:$colorfont;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: $bold;
-    padding: 0.1rem;
+    padding-top: 1rem;
     position: relative;
-                     }
+    }
     .iconosredes
     {
     display: inline-flex;
@@ -55,25 +30,23 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.4rem;
     list-style: none;
     width: 100%;
     max-width: 200px;
     margin: 0 auto;
-        &:hover {
-        background-color: rgb(216, 210, 215);
-        transform: scale(1.2);
-        transition: color, background-color, transform 0.4s ease-in;
+        .insta :hover, .face :hover {
+        transform: scale(1.3);
                 }
     }
 }
-/*Animación del redes*/
+/*Animación de redes*/
 
 @keyframes left-in {
 0%
     {
         left: -100%;
-        color: rgb(2, 2, 17);
+        color: rgb(250, 233, 245);
     }
 100% {
         left: 0;
@@ -81,7 +54,7 @@ h1 {
     }
 }
 
-.redessociales h2
+h2
 {
 animation-name: left-in;
 animation-duration: 5s;
