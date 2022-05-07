@@ -15,8 +15,9 @@ $Borderstyle: solid rgb(27, 14, 32);
     {
     text-align: center;
     justify-content: center;
+    padding-bottom: 1rem;
 
-    h2 {
+    h2{
     color:$colorfont;
     font-size: 1.3rem;
     font-weight: $bold;

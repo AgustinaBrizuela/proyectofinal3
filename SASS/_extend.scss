@@ -6,29 +6,20 @@ h1 {
     color: rgb(66, 18, 64);
     text-decoration: none;
     text-align: center;
-    
 
 }
-
-
 .h1nuestrosvinos
 {
     @extend h1;
     text-decoration:dotted;
-    
 }
 
 .sobrenosotros
 {
-color: rgb(7, 5, 7);
+
 font-size: 0.9rem;
 padding-left: 30px;
 text-decoration: none;
-}
-#h2contacto
-{
-    @extend .sobrenosotros;
-     font-size: 5rem
 }
 
 .sobrenosotrosmapa

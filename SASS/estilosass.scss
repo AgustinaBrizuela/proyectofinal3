@@ -46,19 +46,22 @@ body
 {
   background-color: map-get($Coloresmapa, Color1);
   font-size:map-get($Coloresmapa, fontsize1); 
-  border:map-get($Coloresmapa, bordercolor1) solid; 
+  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
+  padding: 3rem; 
 }
 
 #mapa2
 {
   background-color: map-get($Coloresmapa, Color2);
   font-size:map-get($Coloresmapa, fontsize2);
-  font-weight: bold;
+  font-style: italic;
+  padding: 3rem; 
 }
 #mapa3{
   background-color: map-get($Coloresmapa, Color1);
-  font-size:map-get($Coloresmapa, fontsize2); 
-  border:map-get($Coloresmapa, bordercolor1) solid; 
+  font-size:map-get($Coloresmapa, fontsize1); 
+  border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
+  padding: 3rem; 
 }
   /*Estilo de page historia.html*/
 .columnahistoria

@@ -50,7 +50,8 @@ header .dropdown-menu {
 
 .redessociales {
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 1rem; }
   .redessociales h2 {
     color: #461139;
     font-size: 1.3rem;
@@ -91,17 +92,17 @@ h2 {
   justify-content: center;
   align-items: center;
   font-style: italic;
+  font-weight: bold;
   font-size: 0.9rem;
   background-image: url(..//assets/uvasredes.png);
   background-repeat: repeat;
-  background-size: 410px; }
+  background-size: 420px; }
   .homefooter .linkhome {
     text-decoration: none;
     color: #0e060e;
     font-weight: bold;
     font-size: 1rem; }
   .homefooter #h3home {
-    padding-top: 0.3rem;
     font-size: 1rem; }
 
 h1, .h1nuestrosvinos {
@@ -115,14 +116,10 @@ h1, .h1nuestrosvinos {
 .h1nuestrosvinos {
   text-decoration: dotted; }
 
-.sobrenosotros, #h2contacto, .sobrenosotrosmapa {
-  color: #070507;
+.sobrenosotros, .sobrenosotrosmapa {
   font-size: 0.9rem;
   padding-left: 30px;
   text-decoration: none; }
-
-#h2contacto {
-  font-size: 5rem; }
 
 .sobrenosotrosmapa {
   font-weight: bold;
@@ -149,17 +146,20 @@ h1, .h1nuestrosvinos {
 #mapa1 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
-  border: #663f5f solid; }
+  border: #663f5f solid 0.4rem;
+  padding: 3rem; }
 
 #mapa2 {
   background-color: #c2a4c2;
   font-size: 1rem;
-  font-weight: bold; }
+  font-style: italic;
+  padding: 3rem; }
 
 #mapa3 {
   background-color: #fcf0fc;
-  font-size: 1rem;
-  border: #663f5f solid; }
+  font-size: 0.9rem;
+  border: #663f5f solid 0.4rem;
+  padding: 3rem; }
 
 /*Estilo de page historia.html*/
 .columnahistoria {
@@ -204,7 +204,7 @@ h1, .h1nuestrosvinos {
   margin-top: 0.5rem;
   font-weight: bold; }
 
-.sobrenosotros, #h2contacto, .sobrenosotrosmapa {
+.sobrenosotros, .sobrenosotrosmapa {
   color: #070507;
   font-size: 0.9rem;
   padding-left: 30px;
