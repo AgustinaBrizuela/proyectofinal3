@@ -85,6 +85,10 @@ h2 {
   animation-name: left-in;
   animation-duration: 5s; }
 
+#imagenhome {
+  height: 50vh;
+  padding: 3rem; }
+
 /* estilo footer*/
 .homefooter {
   display: flex;
