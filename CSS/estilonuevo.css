@@ -105,7 +105,8 @@ h2 {
   .homefooter #h3home {
     font-size: 1rem; }
 
-h1, .h1nuestrosvinos {
+/*Estilo de page home.html*/
+h1 {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Georgia;
@@ -113,36 +114,6 @@ h1, .h1nuestrosvinos {
   text-decoration: none;
   text-align: center; }
 
-.h1nuestrosvinos {
-  text-decoration: dotted; }
-
-.sobrenosotros, .sobrenosotrosmapa {
-  font-size: 0.9rem;
-  padding-left: 30px;
-  text-decoration: none; }
-
-.sobrenosotrosmapa {
-  font-weight: bold;
-  font-style: italic; }
-
-.botellanuestrosvinos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.h3video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline; }
-
-.videopremios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1.5rem; }
-
-/*Estilo de page home.html*/
 #mapa1 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
@@ -165,6 +136,15 @@ h1, .h1nuestrosvinos {
 .color {
   background-color: #f8f1f1; }
 
+.botellanuestrosvinos {
+  width: 9rem;
+  margin-left: 50%; }
+
+@media (min-width: 700px) {
+  .botellanuestrosvinos {
+    margin-left: 50%;
+    width: 10rem; } }
+
 /* Estilo página Premios.html*/
 .tablapremios {
   width: 50%;
@@ -180,6 +160,12 @@ h1, .h1nuestrosvinos {
 .color2 {
   background-color: #f8f1f1; }
 
+.videopremios {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*Estilo página Contact.html*/
 .mb-4 {
   padding: 1rem; }
@@ -192,11 +178,12 @@ h1, .h1nuestrosvinos {
   margin-top: 0.5rem;
   font-weight: bold; }
 
-.sobrenosotros, .sobrenosotrosmapa {
-  color: #070507;
-  font-size: 0.9rem;
-  padding-left: 30px;
-  text-decoration: none; }
+#abierto {
+  color: #461139;
+  font-weight: bold; }
+
+.sobrenosotros {
+  font-size: 1rem; }
 
 .sobrenosotrosmapa {
   color: #070507;
