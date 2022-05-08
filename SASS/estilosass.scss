@@ -45,9 +45,10 @@ h1 {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Georgia;
-  color: rgb(66, 18, 64);
+  color: rgb(248, 241, 248);
   text-decoration: none;
   text-align: center;
+  padding-bottom: 1rem;
 
 }
 
@@ -125,19 +126,24 @@ background-color:$especificbgcolor;
 
 .mb-4
 {
-padding: 1rem;
+margin: 0.3rem;
 }
 
 #pcontacto
 {
  font-weight: bold;
+ color: white;
 }
 
 .form-check
 {
 margin-left: 2rem;
-margin-top: 0.5rem;
-font-weight: bold;
+font-style: $italic;
+padding-top: 0.3rem;
+padding-left: 20%;
+color: black;
+
+align-content: center;
 }
 #abierto
 {
@@ -149,12 +155,22 @@ font-weight: bold;
 font-size: 1rem;
 
 }
-.sobrenosotrosmapa
+.sobrenosotrosmapa 
 {
 color: rgb(7, 5, 7);
 font-weight: bold;
 font-style: italic;
 }
 
+.btn-enviar, .btn-limpiar
+{
+  border-radius: 3rem;
+  align-items: center;
+  border: 2px solid #25041e; 
+  transition: all 0.5s;
+  cursor: pointer;
+}
 
+
+/*Fin*/
 

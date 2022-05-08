@@ -85,8 +85,8 @@ h2 {
   animation-name: left-in;
   animation-duration: 5s; }
 
-#imagenhome {
-  height: 50vh;
+#imagenhome, #imagenhistoria {
+  height: 75vh;
   padding: 3rem; }
 
 /* estilo footer*/
@@ -114,9 +114,10 @@ h1 {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Georgia;
-  color: #421240;
+  color: #f8f1f8;
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 1rem; }
 
 #mapa1 {
   background-color: #fcf0fc;
@@ -172,15 +173,19 @@ h1 {
 
 /*Estilo página Contact.html*/
 .mb-4 {
-  padding: 1rem; }
+  margin: 0.3rem; }
 
 #pcontacto {
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 
 .form-check {
   margin-left: 2rem;
-  margin-top: 0.5rem;
-  font-weight: bold; }
+  font-style: italic;
+  padding-top: 0.3rem;
+  padding-left: 20%;
+  color: black;
+  align-content: center; }
 
 #abierto {
   color: #461139;
@@ -193,3 +198,12 @@ h1 {
   color: #070507;
   font-weight: bold;
   font-style: italic; }
+
+.btn-enviar, .btn-limpiar {
+  border-radius: 3rem;
+  align-items: center;
+  border: 2px solid #25041e;
+  transition: all 0.5s;
+  cursor: pointer; }
+
+/*Fin*/
