@@ -25,7 +25,11 @@ body
 }
 //*estilo header*//
 @import "header.scss";
+//*estilo index.html*//
+
 @import "index.scss";
+//*estilo footer*//
+
 @import "footer.scss";
 
 
@@ -37,8 +41,7 @@ body
   fontsize1: 0.9rem,
   fontsize2: 1rem,
   bordercolor1: rgb(102, 63, 95),
- 
- 
+   
 );
 
 h1 {
@@ -58,6 +61,7 @@ h1 {
   font-size:map-get($Coloresmapa, fontsize1); 
   border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
   padding: 3rem; 
+  margin-bottom: 2rem;
 }
 
 #mapa2
@@ -66,32 +70,30 @@ h1 {
   font-size:map-get($Coloresmapa, fontsize2);
   font-style: italic;
   padding: 3rem; 
+  margin-bottom:2rem;
 }
 #mapa3{
   background-color: map-get($Coloresmapa, Color1);
   font-size:map-get($Coloresmapa, fontsize1); 
   border:map-get($Coloresmapa, bordercolor1) solid 0.4rem;
   padding: 3rem; 
+  margin-bottom: 2rem;
 }
-  /*estilo de página Nuestrosvinos.html*/
+/*estilo de página Nuestrosvinos.html*/
 .color
 {
 background-color: $especificbgcolor;
 }
 
 .botellanuestrosvinos {
-  width: 9rem;
-  margin-left: 50%;
-   
-}
+  width: 8rem;
+  margin-left: 45%; }
 
 @media (min-width: 700px) {
-.botellanuestrosvinos
-{
-margin-left: 50%; 
-width: 10rem; 
-}
-}
+  .botellanuestrosvinos {
+    margin-left: 45%;
+    width: 10rem; } }
+
 /* Estilo página Premios.html*/
   
 .tablapremios
@@ -112,7 +114,6 @@ width: 10rem;
 background-color:$especificbgcolor;
 }
 
-
 .videopremios
 {
     margin:  1.5rem;
@@ -122,29 +123,29 @@ background-color:$especificbgcolor;
 
 }
 
-/*Estilo página Contact.html*/
+/*Estilo página Contacto.html*/
 
-.mb-4
+@media (min-width: 700px) {
+  .mb-4 {
+    margin-left:20%
+  }
+    }
+
+.h1contacto
 {
-margin: 0.3rem;
+  text-align: left;
+  
+}
+#pcontacto {
+  font-weight: bold;
+  color: white; 
 }
 
-#pcontacto
-{
- font-weight: bold;
- color: white;
-}
+.form-check {
+   font-style: italic;
+  color: black;
+  padding-left: 22%;}
 
-.form-check
-{
-margin-left: 2rem;
-font-style: $italic;
-padding-top: 0.3rem;
-padding-left: 20%;
-color: black;
-
-align-content: center;
-}
 #abierto
 {
   color: $colorfont;
@@ -170,7 +171,38 @@ font-style: italic;
   transition: all 0.5s;
   cursor: pointer;
 }
+.btn-enviar, .btn-limpiar {
+  border-radius: 3rem;
+  align-items: center;
+  border: 2px solid #25041e;
+  cursor: pointer; }
 
+  .btn-enviar a:hover, .btn-limpiar a:hover
+  {
+  background-color: rgb(124, 87, 148);
+  border-radius: 10rem;
+  }
+
+/*Style página compras.html*/
+
+#h1compras
+{
+  position: relative;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
 
 /*Fin*/
 

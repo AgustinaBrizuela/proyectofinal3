@@ -13,7 +13,6 @@ body {
 
 /*Menú de navegación*/
 header .fotohome {
-  height: 37vh;
   width: 100%;
   margin: auto; }
 
@@ -45,8 +44,6 @@ header .dropdown-menu {
   font-weight: bold;
   font-style: none; }
 
-#imagenhome {
-  height: 60vh; }
 
 .redessociales {
   text-align: center;
@@ -85,10 +82,6 @@ h2 {
   animation-name: left-in;
   animation-duration: 5s; }
 
-#imagenhome, #imagenhistoria {
-  height: 75vh;
-  padding: 3rem; }
-
 /* estilo footer*/
 .homefooter {
   display: flex;
@@ -103,7 +96,7 @@ h2 {
   background-size: 420px; }
   .homefooter .linkhome {
     text-decoration: none;
-    color: #0e060e;
+    color: #7c2f7c;
     font-weight: bold;
     font-size: 1rem; }
   .homefooter #h3home {
@@ -123,31 +116,44 @@ h1 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
   border: #663f5f solid 0.4rem;
-  padding: 3rem; }
+  padding: 3rem;
+  margin-bottom: 2rem; }
 
 #mapa2 {
   background-color: #c2a4c2;
   font-size: 1rem;
-  font-style: italic;
-  padding: 3rem; }
+  padding: 3rem; 
+  margin-bottom: 2rem;}
 
 #mapa3 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
   border: #663f5f solid 0.4rem;
-  padding: 3rem; }
+  padding: 3rem;
+margin-bottom: 2rem; }
+
+
+/*estilo de página historia.html*/
+#imagenhistoria
+{
+  justify-content: center;
+ }
+.imagenhistoria
+{
+  padding: 0.5rem;
+}
 
 /*estilo de página Nuestrosvinos.html*/
 .color {
   background-color: #f8f1f1; }
 
 .botellanuestrosvinos {
-  width: 9rem;
-  margin-left: 50%; }
+  width: 8rem;
+  margin-left: 45%; }
 
 @media (min-width: 700px) {
   .botellanuestrosvinos {
-    margin-left: 50%;
+    margin-left: 45%;
     width: 10rem; } }
 
 /* Estilo página Premios.html*/
@@ -172,20 +178,27 @@ h1 {
   align-items: center; }
 
 /*Estilo página Contact.html*/
-.mb-4 {
-  margin: 0.3rem; }
 
+@media (min-width: 700px) {
+  .mb-4 {
+    margin-left:20%
+  }
+    }
+
+.h1contacto
+{
+  text-align: left;
+  
+}
 #pcontacto {
   font-weight: bold;
-  color: white; }
+  color: white; 
+}
 
 .form-check {
-  margin-left: 2rem;
-  font-style: italic;
-  padding-top: 0.3rem;
-  padding-left: 20%;
+   font-style: italic;
   color: black;
-  align-content: center; }
+  padding-left: 22%;}
 
 #abierto {
   color: #461139;
@@ -203,7 +216,33 @@ h1 {
   border-radius: 3rem;
   align-items: center;
   border: 2px solid #25041e;
-  transition: all 0.5s;
   cursor: pointer; }
+
+  .btn-enviar a:hover, .btn-limpiar a:hover
+  {
+  background-color: rgb(124, 87, 148);
+  border-radius: 10rem;
+  }
+
+  /*style compras.html*/
+
+  #h1compras
+{
+  position: relative;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
 
 /*Fin*/
