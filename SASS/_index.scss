@@ -53,9 +53,14 @@ h2
 animation-name: left-in;
 animation-duration: 5s;
 }
-
-.imagenhome
-{
-    padding: 3rem;
-   
+@media (min-width: 700px) {
+    #carousel {
+      padding-left: 40%;
+  }
 }
+@media (max-width: 700px) {
+  #carousel {
+    padding-left: 20%;
+}
+}
+ //*FIN*//
