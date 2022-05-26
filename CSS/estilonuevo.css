@@ -140,18 +140,25 @@ h1 {
   padding: 3rem;
   margin-bottom: 2rem; }
 
+/*Estilo de page historia.html*/
+.imagenhistoria {
+  display: inline-block;
+  margin: auto;
+  align-content: space-between;
+  margin-bottom: 1rem; }
+
 /*estilo de página Nuestrosvinos.html*/
 .color {
   background-color: #f8f1f1; }
 
 .botellanuestrosvinos {
-  width: 8rem;
-  margin-left: 45%; }
+  width: 20%;
+  margin-left: 43%; }
 
 @media (min-width: 700px) {
   .botellanuestrosvinos {
-    margin-left: 45%;
-    width: 10rem; } }
+    width: 20%;
+    margin-left: 45%; } }
 
 /* Estilo página Premios.html*/
 .tablapremios {
