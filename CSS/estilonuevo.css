@@ -44,7 +44,6 @@ header .dropdown-menu {
   font-weight: bold;
   font-style: none; }
 
-
 .redessociales {
   text-align: center;
   justify-content: center;
@@ -82,16 +81,14 @@ h2 {
   animation-name: left-in;
   animation-duration: 5s; }
 
-  @media (min-width: 700px) {
-    #carousel {
-      padding-left: 40%;
-  }
-}
+@media (min-width: 700px) {
+  #carousel {
+    padding-left: 40%; } }
+
 @media (max-width: 700px) {
   #carousel {
-    padding-left: 20%;
-}
-}
+    padding-left: 20%; } }
+
 /* estilo footer*/
 .homefooter {
   display: flex;
@@ -132,26 +129,16 @@ h1 {
 #mapa2 {
   background-color: #c2a4c2;
   font-size: 1rem;
-  padding: 3rem; 
-  margin-bottom: 2rem;}
+  font-style: italic;
+  padding: 3rem;
+  margin-bottom: 2rem; }
 
 #mapa3 {
   background-color: #fcf0fc;
   font-size: 0.9rem;
   border: #663f5f solid 0.4rem;
   padding: 3rem;
-margin-bottom: 2rem; }
-
-
-/*estilo de página historia.html*/
-#imagenhistoria
-{
-  justify-content: center;
- }
-.imagenhistoria
-{
-  padding: 0.5rem;
-}
+  margin-bottom: 2rem; }
 
 /*estilo de página Nuestrosvinos.html*/
 .color {
@@ -187,28 +174,22 @@ margin-bottom: 2rem; }
   justify-content: center;
   align-items: center; }
 
-/*Estilo página Contact.html*/
-
+/*Estilo página Contacto.html*/
 @media (min-width: 700px) {
   .mb-4 {
-    margin-left:20%
-  }
-    }
+    margin-left: 20%; } }
 
-.h1contacto
-{
-  text-align: left;
-  
-}
+.h1contacto {
+  text-align: left; }
+
 #pcontacto {
   font-weight: bold;
-  color: white; 
-}
+  color: white; }
 
 .form-check {
-   font-style: italic;
+  font-style: italic;
   color: black;
-  padding-left: 22%;}
+  padding-left: 22%; }
 
 #abierto {
   color: #461139;
@@ -226,33 +207,30 @@ margin-bottom: 2rem; }
   border-radius: 3rem;
   align-items: center;
   border: 2px solid #25041e;
+  transition: all 0.5s;
   cursor: pointer; }
 
-  .btn-enviar a:hover, .btn-limpiar a:hover
-  {
-  background-color: rgb(124, 87, 148);
-  border-radius: 10rem;
-  }
+.btn-enviar, .btn-limpiar {
+  border-radius: 3rem;
+  align-items: center;
+  border: 2px solid #25041e;
+  cursor: pointer; }
 
-  /*style compras.html*/
+.btn-enviar a:hover, .btn-limpiar a:hover {
+  background-color: #7c5794;
+  border-radius: 10rem; }
 
-  #h1compras
-{
+/*Style página compras.html*/
+#h1compras {
   position: relative;
-  animation-duration: 5s;
+  animation-duration: 15s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
 
-}
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    }
-
+    margin-left: 100%; }
   to {
-    margin-left: 0%;
-
-  }
-}
+    margin-left: 0%; } }
 
 /*Fin*/
