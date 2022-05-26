@@ -16,6 +16,7 @@ header{
     border-radius: 8rem;
     }
 
+}
     nav
     {
     font-weight: bold;
@@ -45,4 +46,9 @@ header{
     font-weight: bold;
     font-style: none;
 }
+.dropdown-menu :hover
+{
+border-radius: 0.5rem;
+transform: scale(1);
+background-color: rgb(193, 176, 204);
 }
